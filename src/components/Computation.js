@@ -2,28 +2,19 @@
 //   { remainder: 3, modulo: 5 },
 //   { remainder: 5, modulo: 7 },
 //   { remainder: 7, modulo: 11 },
-//   { remainder: 2, modulo: 17 },
-//   { remainder: 2, modulo: 17 },
 // ];
 
-const findGCD = (num1, num2) => {
-  if (num1 === 0) {
-    return num2;
-  } else if (num2 === 0) {
+export const findGCD = (num1, num2) => {
+  if (num2 === 0){
     return num1;
-  } else if (num1 === num2) {
-    return num1;
-  } else if (num1 > num2) {
-    return findGCD(num1 - num2, num2);
-  } else {
-    return findGCD(num1, num2 - num1);
   }
+  return findGCD(num2, num1 % num2);
 };
 
-function checkPairwiseCoprime(array) {
+export function checkPairwiseCoprime(array) {
   for (let i = 0; i < array.length - 1; i++) {
     for (let j = i + 1; j < array.length; j++) {
-      if (findGCD(array[i].modulo, array[j].modulo) !== 1) {
+      if (findGCD(parseInt(array[i].modulo), parseInt(array[j].modulo)) !== 1) {
         return false;
       }
     }
@@ -33,7 +24,7 @@ function checkPairwiseCoprime(array) {
 
 // contoh 77 . x =` 1 (mod 5), 77 =a, 5 = m
 // Mengembalikan balikan dari Mk(a) dalam moulus mk
-function modInverse(a, m) {
+export function modInverse(a, m) {
   const m0 = m;
   let y = 0;
   let x = 1;
@@ -75,7 +66,7 @@ function modInverse(a, m) {
  * k = panjang array
  */
 
-const solveCRT = (array) => {
+export const solveCRT = (array) => {
   // Cek setiap pasangan modulo pairwise coprime
   if (checkPairwiseCoprime(array)) {
     const length = array.length;
