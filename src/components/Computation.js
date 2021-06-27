@@ -94,7 +94,7 @@ export const solveCRT = (array) => {
     }
 
     // sederhanakan x menjadi terkecil
-    x = x % m;
+    // x = x % m;
 
     return {
       remainders: array.map((element) => parseInt(element.remainder)),

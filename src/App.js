@@ -58,10 +58,18 @@ function App() {
   };
 
   return (
-    <Container>
-      <h1>CRT</h1>
-      <Grid container alignItems="center" direction="column" justify="space-around" spacing={3}>
-        <Grid item xs={12}>
+    <Container className="container">
+      <h1 id="title">
+        <b>Chinese Remainder Theorem Calculator</b>
+      </h1>
+      <Grid
+        container
+        alignItems="stretch"
+        direction="column"
+        justify="space-around"
+        spacing={3}
+      >
+        <Grid item xs={12} className="form-data">
           <form
             className={classes.root}
             autoComplete="off"
@@ -106,7 +114,6 @@ function App() {
           </form>
         </Grid>
         <Grid item xs={12} id="result">
-          {/* <div id="result"></div> */}
         </Grid>
       </Grid>
     </Container>

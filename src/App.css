@@ -2,9 +2,43 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+#title{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.form-data {
+  align-self: center;
 }
 
 .result {
+  padding: 1.5rem;
+  margin: 3rem;
+  border: 2px solid black;
+  min-height: 40vh;
+  margin-top: 1rem;
   text-align: left;
+}
+
+.result p {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: .5rem;
+}
+
+.result-item {
+  line-height: 150%;
+  margin-bottom: 1rem;
+}
+
+.final p {
+  color: red;
 }
