@@ -1,9 +1,3 @@
-// const array = [
-//   { remainder: 3, modulo: 5 },
-//   { remainder: 5, modulo: 7 },
-//   { remainder: 7, modulo: 11 },
-// ];
-
 export const findGCD = (num1, num2) => {
   if (num2 === 0){
     return num1;
@@ -108,9 +102,3 @@ export const solveCRT = (array) => {
     return null;
   }
 };
-
-// console.log(modInverse(77, 5));
-// console.log(modInverse(55, 7));
-// console.log(modInverse(35, 11));
-// console.log(checkPairwiseCoprime(array));
-// console.log(solveCRT(array));
