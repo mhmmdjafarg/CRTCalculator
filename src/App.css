@@ -11,6 +11,7 @@
 }
 
 .container {
+  background-color: #77ACF1;
   min-height: 100vh;
   padding: 2rem;
 }
@@ -20,6 +21,8 @@
 }
 
 .result {
+
+  background-color:#A2DBFA;
   padding: 1.5rem;
   margin-left: 5rem;
   margin-right: 5rem;
