@@ -1,3 +1,10 @@
+# Chinese Remainder Theorem Calculator
+| Deployed using AWS EC2 http://35.174.211.169/
+
+## How to use
+- Add as many equations you want to solve, assume you have X mod 5 = 7, fill the input with remainder = 7, and modulo = 5 and so on.
+- Click solve
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
