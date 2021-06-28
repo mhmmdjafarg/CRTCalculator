@@ -66,7 +66,6 @@ export function showResult(datas, classes) {
 
     // find m
     let mString = "m = ";
-    let m = 1;
     for (let i = 0; i < datas.modulos.length; i++) {
       mString += `${datas.modulos[i]} `;
       if (i !== datas.modulos.length - 1) {
