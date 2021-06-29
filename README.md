@@ -1,9 +1,14 @@
 # Chinese Remainder Theorem Calculator
-| Deployed using AWS EC2 http://35.174.211.169/
+> Deployed using AWS EC2 http://35.174.211.169/
+> And github pages (https://mhmmdjafarg.github.io/CRTCalculator/)
+
 
 ## How to use
 - Add as many equations you want to solve, assume you have X mod 5 = 7, fill the input with remainder = 7, and modulo = 5 and so on.
 - Click solve
+
+## Reference
+- (https://informatika.stei.itb.ac.id/~rinaldi.munir/Matdis/2020-2021/Teori-Bilangan-2020-Bagian2.pdf)
 
 # Getting Started with Create React App
 
