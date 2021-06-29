@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CRTCalculator/static/css/main.0588a5cc.chunk.css",
+    "main.js": "/CRTCalculator/static/js/main.edf9f17a.chunk.js",
+    "main.js.map": "/CRTCalculator/static/js/main.edf9f17a.chunk.js.map",
+    "runtime-main.js": "/CRTCalculator/static/js/runtime-main.dfbaabb2.js",
+    "runtime-main.js.map": "/CRTCalculator/static/js/runtime-main.dfbaabb2.js.map",
+    "static/js/2.8b527e7e.chunk.js": "/CRTCalculator/static/js/2.8b527e7e.chunk.js",
+    "static/js/2.8b527e7e.chunk.js.map": "/CRTCalculator/static/js/2.8b527e7e.chunk.js.map",
+    "index.html": "/CRTCalculator/index.html",
+    "static/css/main.0588a5cc.chunk.css.map": "/CRTCalculator/static/css/main.0588a5cc.chunk.css.map",
+    "static/js/2.8b527e7e.chunk.js.LICENSE.txt": "/CRTCalculator/static/js/2.8b527e7e.chunk.js.LICENSE.txt",
+    "static/media/bg.f2b7a3d9.jpg": "/CRTCalculator/static/media/bg.f2b7a3d9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfbaabb2.js",
+    "static/js/2.8b527e7e.chunk.js",
+    "static/css/main.0588a5cc.chunk.css",
+    "static/js/main.edf9f17a.chunk.js"
+  ]
+}
