@@ -12,6 +12,8 @@ import Grid from "@material-ui/core/Grid";
 import { solveCRT } from "./components/Computation";
 import { showResult } from "./components/Result";
 import Header from "./components/Header";
+import background from "./bg.jpg";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -59,11 +61,14 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${background})`,
+    backgroundPosition:"center",
+    backgroundAttachment:"fixed"
+     }}>
       <Header />
       <Container className="container">
         <div className="instruction">
-            <h3>Add equations you want to solve</h3>
+          <h3>Add equations you want to solve</h3>
         </div>
         <Grid
           container
@@ -84,6 +89,7 @@ function App() {
                     label="Remainder"
                     type="number"
                     name="remainder"
+                    variant="outlined"
                     value={inputField.remainder}
                     required
                     onChange={(event) => handleChangeInput(index, event)}
@@ -92,6 +98,7 @@ function App() {
                     label="Modulo"
                     type="number"
                     name="modulo"
+                    variant="outlined"
                     value={inputField.modulo}
                     required
                     onChange={(event) => handleChangeInput(index, event)}
