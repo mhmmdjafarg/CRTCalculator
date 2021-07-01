@@ -1,5 +1,5 @@
 export const findGCD = (num1, num2) => {
-  if (num2 === 0){
+  if (num2 === 0) {
     return num1;
   }
   return findGCD(num2, num1 % num2);
@@ -14,7 +14,7 @@ export function checkPairwiseCoprime(array) {
     }
   }
   return true;
-}
+};
 
 // contoh 77 . x =` 1 (mod 5), 77 =a, 5 = m
 // Mengembalikan balikan dari Mk(a) dalam moulus mk
@@ -46,7 +46,7 @@ export function modInverse(a, m) {
     x += m0;
   }
   return x;
-}
+};
 
 /**
  *
@@ -79,13 +79,13 @@ export const solveCRT = (array) => {
     let yData = [];
     for (let i = 0; i < length; i++) {
       yData.push(modInverse(Mdata[i], parseInt(array[i].modulo)));
-    }
+    };
 
     // Get x value
     let x = 0;
     for (let j = 0; j < length; j++) {
       x += parseInt(array[j].remainder) * Mdata[j] * yData[j];
-    }
+    };
 
     // sederhanakan x menjadi terkecil
     // x = x % m;

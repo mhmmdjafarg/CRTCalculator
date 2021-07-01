@@ -22,7 +22,7 @@ class Header extends React.Component {
       </AppBar>
     );
   }
-}
+};
 
 Header.propTypes = {
   classes: PropTypes.object.isRequired,

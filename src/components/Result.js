@@ -160,6 +160,6 @@ export function showResult(datas, classes) {
 }
 
 export function clearBtnOnClick() {
-  const result = <div></div>;
+  const result = (<div></div>);
   ReactDOM.render(result, document.getElementById("result"));
 }

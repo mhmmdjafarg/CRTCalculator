@@ -12,7 +12,7 @@
 
 .container {
   min-height: 100vh;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .form-data {
@@ -22,8 +22,8 @@
 .result {
   background-color:#A2DBFA;
   padding: 1.5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 2rem;
   border: 2px solid black;
   min-height: 40vh;
